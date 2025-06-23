@@ -1,0 +1,26 @@
+# Eye-Controlled ESP32-CAM Interface
+
+This project implements a simple real-time eye tracking system using OpenCV and Python to control an ESP32-CAM module over Wi-Fi. By analyzing vertical eye movement, it sends directional commands (UP, DOWN, STOP) to the ESP32-CAM for controlling robots or other IoT devices.
+
+## 🔧 Features
+
+- Detects eye position using Haar Cascades
+- Compares eye position to a target Y-coordinate
+- Sends commands (`up`, `down`, or `stop`) to an ESP32 via HTTP
+- Real-time webcam feed with visual eye tracking
+- Adjustable sensitivity and IP configuration
+
+## 📸 Demo
+
+![Demo](demo.gif) *(Add your own demo gif or image here)*
+
+## 🛠️ Requirements
+
+- Python 3.x
+- OpenCV (`pip install opencv-python`)
+- requests (`pip install requests`)
+- A webcam connected to your PC
+- ESP32 or ESP32-CAM running a compatible HTTP server to receive commands
+
+## 📁 File Structure
+
