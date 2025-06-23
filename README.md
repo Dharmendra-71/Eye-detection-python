@@ -66,4 +66,4 @@ This project is open-source and available under the MIT License.
 Feel free to fork the repo, improve it, and send pull requests!
 
 👤 Author
-Made with ❤️ by Your Name
+Made with ❤️ by Dharmendra
